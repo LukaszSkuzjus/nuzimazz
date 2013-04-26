@@ -1,0 +1,15 @@
+Installation notes
+==================
+
+    (1) Database
+
+        The program requires MySQL 4 or 5.
+        Create a database
+        And create the tables required by using Database/album.sql
+
+    (2) Copy everything (except the Database directory) to a
+        webserver with PHP 5 enabled
+
+    (3) Make sure that the GD library is enabled for PHP.
+
+    (4) Use a recent browser as this is an AJAX application ;-)
